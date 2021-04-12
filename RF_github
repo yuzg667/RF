@@ -1,0 +1,7 @@
+*** Test Cases ***
+test
+    log    some
+    FOR    ${i}    IN RANGE    10
+        log    ${i}
+        print("sssdddddd")
+    END
